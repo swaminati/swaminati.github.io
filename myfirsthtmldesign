@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Swami Nati</title>
+	</head>
+	<body style="font-family: Arial">
+	    <img src="http://c.isha.ws/wp-content/uploads/2014/06/sadhguru-inconversation-image-3.png">
+	    <p style="color: red">
+	        <strong>
+    	    Age: 40,
+    	    Gender: Male,
+    	    Home Town: Cbe
+    	    </strong>
+	    </p>
+	    <ul style="font-size: 18px">
+	        <li>Interests</li>
+    	        <ol>
+    	            <li><em>Football</em></li>
+    	       </ol>
+	        <li>Pets</li>
+    	        <ul>
+    	            <li>Dog</li>
+    	       </ul>
+	        <li>Favorite</li>
+	        <li>Friends</li>
+	   </ul>
+	</body>
+</html>
