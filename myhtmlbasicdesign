@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Free Play!</title>
+	</head>
+	<body>
+		<!--Go bananas!-->
+		<h2>My first design in HTML & CSS</h2>
+		    <p>This design will help me to review what I was learned in HTML & CSS Basic</p>
+		    <h3>INTRODUCTION TO HTML</h3>
+		    <ol>
+		    <li><h3>HTML Basic</h3></li>
+		        <p>Every webpage you look at is written in a language called HTML. You can think of HTML as the skeleton that gives every webpage structure.</p>
+		        <ol>	            
+		            <li>Course 1: Basic</li>
+		                <p>we'll use HTML to add paragraphs, headings, images and links to a webpage.</P>
+		                <p>The code with the < > That's HTML! Like any language, it has its own special syntax (rules for communicating)</p>
+		                <p>HTML stands for HyperText Markup Language. Hypertext means "text with links in it." Any time you click on a word that brings you to a new webpage, you've clicked on hypertext!</p>
+                        <p>A markup language is a programming language used to make text do more than just sit on a page: it can turn text into images, links, tables, lists, and much more. HTML is the markup language we'll be learning.</P>
+                        <p>What makes webpages pretty? That's CSS—Cascading Style Sheets. Think of it like skin and makeup that covers the bones of HTML. We'll learn HTML first, then worry about CSS in later courses.</P>
+                        <p>The first thing we should do is set up the skeleton of the page.</P>
+                        <ul>
+                            <li>Always put < !DOCTYPE html > on the first line. This tells the browser what language it's reading (in this case, HTML).</li>
+                            <li>Always put < html > on the next line. This starts the HTML document.</Li>
+                            <li>Always put < "/ html" > (Remove " while wrighting the code) on the last line. This ends the HTML document.</li>
+                        </ul>
+		            <li>Course 2: Basic terminology</li>
+                        <p>To learn more HTML, we should learn how to talk about HTML. Already you have seen we use < >s a lot.</P>
+                        <ul>
+                            <li>Things inside < >s are called tags.</li>
+                            <li>Tags nearly always come in pairs: an opening tag and a closing tag.</Li>
+                            <p>You can think of tags as being like parentheses: whenever you open one, you should close it. Tags also nest, so you should close them in the right order: the most recently opened tag should be the first one closed, like in the example below.</P>
+                            <p>< first tag>< second tag>Some text!<"/second tag"><"/first tag"></P>
+                        </ul>
+		            <li>Course 3: HTML Page Structure</li>
+                            <p>There are always two parts to an HTML file: the head and the body. Let's start with the head.</P>
+                            <p>The head contains information about your HTML file, like its title. The title is what we see in the browser's title bar or page tab.</P>
+                            <p>The body is where you put your content, such as text, images, and links. The content in the body is what will be visible on the actual page.**Only the body area will be displayed in the browser**</P>
+ 		        </ol>	            
+
+ 		    <li><h3>Body elements</h3></li>
+		        <p>HTML elements are written with a start tag, with an end tag, with the content in between.</p>
+		        <ol>
+		            <li>The html element defines the whole document</li>
+		            <li>The HTML "head" element has nothing to do with HTML headings.
+                    <br>
+                    The HTML head element contains meta data. Meta data are not displayed.
+                    <br>
+                    The HTML head element is placed between the html tag and the body ta.</li>
+                                        <li>The HTML "title" element is meta data. It defines the HTML document's title.
+                    <br>The title will not be displayed in the document, but might be displayed in the browser tab.</li>
+                    		            <li>The HTML <"meta"> element is also meta data.
+                    <br>It can be used to define the character set, and other information about the HTML document.
+                    <br>The HTML <"style"> element is used to define internal CSS style sheets.
+                    <br>The HTML <"link"> element is used to define external CSS style sheets.</li>
+		            
+		            <li>The HTML body element defines the document body</li> 
+		            <li>The "h1" element defines a heading. Headings are defined with the <"h1"> to <"h6"> tags.</li>
+		            <li>The HTML "p" element defines a paragraph.<br>HTML documents are divided into paragraphs.</li>
+		            <li>Empty element: HTML elements with no content are called empty elements. The <"br"> is an empty element without a closing tag (the "br" tag defines a line break). Empty elements can be "closed" in the opening tag like this: <"br /">. HTML5 does not require empty elements to be closed.</li>
+		            <li>Horizondal line element: The <"hr"> tag creates a horizontal line in an HTML page. The hr element can be used to separate content.</li>
+		            <li>The HTML <"pre"> element defines preformatted text.
+                    <pre>
+                    The text inside a <"pre"> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks</pre></li>
+		        </ol>
+ 		    <li><h3>Body elements</h3></li>
+ 		        <ol>	            
+ 		            <li>Course 6,7,8: Paragraphs and Headings</li>
+                            <p>Each paragraph starts with an opening < p > tag and ends with a closing <"/p"> tag.</P>
+                            <p>The head contains information about your HTML file, like its title. The title is what we see in the browser's title bar or page tab.</P>
+                            <p>The body is where you put your content, such as text, images, and links. The content in the body is what will be visible on the actual page.**Only the body area will be displayed in the browser**</P>
+                            <p>The next step is to give our paragraphs headings using heading tags.</p>
+  		        </ol>
+ 		    <li><h3>HTML Attributes</h3></li>
+  		        <ol>
+  		            <li>
+                    HTML elements can have attributes<br>
+                    Attributes provide additional information about an element<br>
+                    Attributes are always specified in the start tag<br>
+                    Attributes come in name/value pairs like: name="value"
+                    </li>
+  		            <li><a href="http://www.w3schools.com/tags/default.asp">List of tags and attributes</a></li>
+                    <li>Course 9 to 14: Adding a link and an image to your page</li>
+                    <ul>
+                    <li>Link</li>
+                    <p>What if you wanted to send the user to another part of your website, or another website altogether? You use hyperlinks, or links for short!<br>
+                    First, there's an opening < a > tag and that tag has an attribute called href. The href value tells your link where you want it to go, in this case http://www.w3schools.com/tags/default.asp <br>
+Then you have a description of your link between your opening < a > and your closing <"/a"> tags. This is what you will be able to click on.</p>
+                    <li>Image</li>
+                    <p>You can add images to your websites to make them look fancy.<br>
+We use an image tag, like so: < img >. This tag is a bit different from the others. Instead of putting the content between the tags, you tell the tag where to get the picture using src. It's also different because there is no ending tag. It has / in the tag to close it: < img src="url" />.</p>
+                    </ul>    
+                </ol>
+ 		    <li><h3>Building your own Web</h3></li>
+ 		        <ol>
+ 		        <li><h6>What you'll be making</h6></li>
+     		        <p>Before we ask you to write a bunch of code, we think it's helpful for you to see exactly what you'll be making in this project.</P>
+     		            <li><h6>Every house needs a frame</h6></li>
+      		        <ol>
+      		            <li>An HTML page is sort of like a house: it needs a certain number of essential structures in order to work.</li>
+      		            <li>Just like a house, an HTML page needs a frame. In this case, your frame is made of <!DOCTYPE>, < html >, < head> , and < body > tags.</li>
+      		        </ol>
+  		            <p>
+      		        Your webpage is blank as the day it was born! Let's add five things:<br>
+                    The < !DOCTYPE > tag<br>
+                    Your < html > tags<br>
+                    Your < head > tags<br>
+                    < title > tags (with any title you like!) between your head tags
+                    Your < body > tags
+                    </p>
+                <li><h6>It's better with a header</h6></li>
+                    <p>Your webpage could use an < h1 > header between the body tags to let everyone know that the page is about you.<br>Create an < h1 > tag inside your body tags. Between your opening < h1 > and closing < '/h1' > tags, type your name for all to see!</p>		            
+                <li><h6>Tell us about yourself</h6></li>
+                    <p>Your page is coming along, but it's not telling us much yet.<br>You could use a paragraph or two telling your readers what your interests are, what you do for a living, how much you love learning HTML, and so on.<br>Insert three < p > tags after your < h1 > tag (but before your closing < '/body' > tag!). Write a little bit about yourself in each of the three paragraphs. You can say whatever you want! It's your webpage.</p>
+                <li><h6>A picture's worth a thousand words</h6></li>
+                    <p>Nice work! Your page is still looking a bit spare, though. Better add an image or two to spruce things up a bit.<br>Remember, to insert an image from the web you will need to right-click and select "Copy image URL." Then use this URL in your < img > tag.<br>Insert an < img > tag between your < body > tags. Feel free to put it anywhere! (We think it'd look best after your < h1 > tag, but before your < p > tags.) You can make the src attribute point to any image you like.</p>
+                <li><h6>Link me!</h6></li>
+                    <p>Great! There's only one problem: your webpage is like a house with no doors. There's no way to get in or out! We'll fix that by adding a couple of links.<br>Once you successfully add your links and hit Run, you've finished! Revel in the glory of your newly created webpage.<br>If it still looks a little basic to you, don't worry. We'll soon teach you CSS to make your webpages look sharp!<br>Add at least two links to your webpage. You can turn an image or a bit of text into a link; you can even turn part of the text inside your < p > tags into a link!<br>Check out the Hint if you've forgotten how the < a > tag works.</p>                
+                </ol>
+        </ol>
+        <h3>HTML STRUCTURE: USING LISTS</h3>
+            <ol>
+ 		    <li><h3>HTML Basics II</h3></li>
+ 		    <h3>Making Lists</h3>
+ 		    <ul>
+ 		        <li><h3>Introduction</h3></li>
+ 		        <p>Let's continue learning more HTML. You've already covered a lot: how to set up < head > and < body > tags, how to make headings and paragraphs, and how to add images and links.<br>In this course, we'll take it to the next level:</P>
+		        <ol>
+  		            <li>Making ordered and unordered lists</li>
+  		            <li>Changing font size, color and type</li>  		            
+  		            <li>Changing the background color</li>  		            
+  		            <li>Aligning the text</li>
+  		            <li>Let's get warmed up by adding a < title > in the < head >.</li>
+  		            <li>In the body, create a paragraph (using < p >). Write anything you like!</li>
+  		       </ol>    
+ 		        <li><h3>Indentation is your friend</h3></li>
+ 		        <p>Now is a good time to quickly mention indentation—that is, the amount each line is spaced in from the margin. You'll notice that when we place tags inside of other tags, we indent them more. This really helps make your code more readable!<br>Check out our indentation in the editor to the right. Try to follow this indentation style when you're writing HTML so you don't get confused.</P>
+ 		        <li><h3>Ordered lists</h3></li>
+ 		        <p>Good! Now let's learn how to make ordered lists. An ordered list is simply a list that is numbered, like the one below.</P>
+		        <ol>
+  		            <li>We begin the ordered list with the opening tag < 'ol' >.</li>
+  		            <li>We wrap (i.e. surround) each individual item with < 'li' > and < '/li' > tags.</li>  		            
+  		            <li>Because each listed item is only on one line, we put the entire element on one line.</li>  		            
+  		            <li>we finish the ordered list with the closing tag <'/ol'>.</li>
+  		       </ol>        
+ 		        <li><h3>Unordered lists</h3></li>
+ 		        <p>We just learned how to make ordered lists, but what if the order doesn't matter, what if we just want bullet points?</P>
+		        <ol>
+  		            <li>First, we open our list with an unordered list <'ul'> tag</li>
+  		            <li>For each item we wish to add to the list, we use a list item tag <'li'> with text in between</li>  		            
+  		            <li>We then tell the browser we are done with our list by calling our closing <'/ul'> tag</li>  		            
+  		       </ol>        
+ 		        <li><h3>Lists inside a list</h3></li>
+ 		        <p>So you've made ordered lists and unordered lists. Top work!<br>What if you have an ordered list, but each item in the ordered list also has an unordered list nested in it? Nested simply means 'inside' the list. The editor has a small example of this. Hit save & submit to see what the result looks like!<br>Remember: you've been nesting tags already. When you nest tags, the last tag you open is the first one you close.</P>
+		        <ol>
+  		            <li>First, create an unordered list.</li>
+  		            <li>Your unordered list should have two items: "Favorite Boys' Names" and "Favorite Girls' Names."</li>     
+  		            <li>Under each item of the unordered list, create an ordered list. Use the ordered list to specify your three favorite boys' names and three favorite girls' names. Use the sample nested lists above as examples of how to do this.</li>          
+  		       </ol>
+            </ul>
+ 		    <h3>Styling the font!</h3>
+ 		    <ul>
+ 		        <li><h3>Making comments</h3></li>
+ 		        <p>We have covered a lot about lists. Let's change gears and do some styling. If you recall, HTML is the skeleton of the webpage, and CSS lets you give the skeleton some skin and makeup.<br>But it is possible to do some <strong>inline CSS</strong>. This simply means we can do some styling in our HTML file without worrying about a separate CSS file! We'll learn this first because it will make learning CSS a lot easier later.<br>Before we dive into fonts, it's important to learn about making comments. You can include little notes in your HTML code that the browser won't display. But it will be in the code to help you remember why you did certain things.</p>        
+		        <ol>
+  		            <li>Comments start with <"!-- and end with --"> like this:</li>
+  		            <p><"!-- This is an example of a comment! --"></p>      
+  		       </ol>
+ 		        <li><h3>Font size</h3></li>
+ 		        <p>Recall that < p > and <'/p'> are opening and closing tags.<br>BWe can give tags more instructions by including attributes in the opening tag. An attribute is simply a characteristic or some description for the content in the element. You saw this with src in < img > and href in < a >.<br>Let's change the size of the text. How? We use the style attribute. We make it equal to font-size, followed by a colon, the size you want, and end it with px (short for "pixels"). For example:<br>< p style="font-size: 12px"><br>If you're having trouble with font sizes, reset your browser's zoom by pressing Cmd-0 or Ctrl-0.</p>        
+ 		        <li><h3>Font color</h3></li>
+ 		        <p>What is awesome about the <strong>style</strong> attribute is that we use it a lot! And we can use it with many different tags, not just < p>. Let's now change the colors of our text in a heading.<br>To change the color of text, simply add the style attribute in the opening tag, then make the style equal to "color:blue" (or whatever color you like). For example:<br>< h2 style="color:red"><br>What if you want to change the color and the size of the text? Simple! Just add a semi-colon between each bit. For example:<br>< p style="color: green; "font-size: 12px"><br>A full list of available colors can be found <a href="http://www.w3schools.com/html/html_colornames.asp"><span style="color: red">here.</span></a></p>        
+ 		        <li><h3>Font family</h3></li>
+ 		        <p>We've covered font colors and font sizes. But we want more power! We want to decide what font type to use. We can do this using font-family, like this:<br>< h1 style="font-family: Arial">Title<'/h1'><br>We can do the same for other tags. So we could have a li:<br>< li style="font-family: Arial">Hello!<'/li'><br>>A full list of available font-family can be found <a href="http://www.w3.org/TR/CSS21/fonts.html#generic-font-families"><span style="font-size: 18px; font-family: Verdana; color: blue">here.</span></a><br>Make sure to capitalize the first letter of <em>font-fmaily</em> Arial as shown!</p>        
+            </ul> 
+ 		    <h3>More nice styling!</h3>
+ 		    <ul>
+ 		        <li><h3>Background color</h3></li>
+ 		        <p style="background-color: green;">The previous section covered a number of nice tricks to control how the text looks. Now we want to learn about how to change the color of the webpage's background.<br>We can use the style attribute again, and set it equal to "background-color: red" (or whatever color you want).<br>For example, here's how to change the background color of a < p > tag to green:<br>< p style="background-color: red;">Hello!<'/p'></p>        
+ 		        <li><h3 style="text-align:center">Aligning the text</h3></li>
+ 		        <p>Often it is nice to be able to move the text around. To do so, we again use the style attribute. And then we use "text-align:left" (or right, or center) to determine the location of the text.<br>< h1 style="text-align:center"></p>        
+ 		        <li><h3>Strong words!</h3></li>
+ 		        <p>We can change the appearance of words. What if we want to make them <strong>bold</strong>?<br>Surprise! We don't have to use the style attribute. Here are the steps:</p>        
+                    <ol>
+                    <li>Identify the word or words you want to <strong>bold</strong>.</li>
+                    <li>Surround those words with opening tag < strong > and closing tag <'/strong'>.</li>
+                    <li>Celebrate how awesome you are at HTML!</li>
+                    </ol>
+ 		        <li><h3>Emphasize words!</h3></li>
+ 		        <p>Aside from bolding words, we often want to italicize words for <strong>em</strong>?phasis. (Hint, hint.)<br>Like bolding, we do not need to use the style attribute. Instead:</p>        
+                    <ol>
+                    <li>Identify the word or words you want to italicize.</li>
+                    <li>Surround those words with opening tag < em > and closing tag <'/em'>.</li>
+                    <li>Be humble and grateful for your newfound <em>powers</em>.</li>
+                    </ol>
+ 		        <li><h3>Summary</h3></li>
+ 		        <p>This has been an incredibly busy lesson, and you've covered a lot. Congratulations! We have learned how to:</p>        
+                    <ol>
+                    <li>Make ordered and unordered lists</li>
+                    <li>Change the color, size and type of font</li>
+                    <li>Add comments to our HTML file</li>
+                    <li>Change the page's background color</li>
+                    <li>Align text</li>
+                    <li>Bold and italicize text</li>
+                    </ol>
+            </ul>
+	
+	
+	</body>
+</html>
